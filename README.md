@@ -15,4 +15,4 @@ Function builds spherical Regions of Interests (ROIs) in .mat and .img format fr
 
 **Requires:** 
 - SPM12 Toolbox (http://www.fil.ion.ucl.ac.uk/spm/software/spm12/) 
-- MarsBar Toolbox (http://marsbar.sourceforge.net/) 
+- MarsBaR Toolbox (http://marsbar.sourceforge.net/) 
