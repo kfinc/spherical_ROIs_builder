@@ -11,7 +11,7 @@ function build_spheres_mni(coordinates, radius, label)
 
 % Requires: 
 %           SPM12 Toolbox (http://www.fil.ion.ucl.ac.uk/spm/software/spm12/) 
-%           MarsBar Toolbox (http://marsbar.sourceforge.net/) 
+%           MarsBaR Toolbox (http://marsbar.sourceforge.net/) 
 %
 % K Finc, Interdisciplinary Centre for Modern Technologies NCU, 
 % Last update: 27/12/2017
