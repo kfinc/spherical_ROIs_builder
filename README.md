@@ -5,9 +5,9 @@ Function builds spherical Regions of Interests (ROIs) in .mat and .img format fr
 
 **Inputs:**   
 
-- coordinates, list of MNI coordinates (1 coordinate per row, separate column for x, y, z)                
-- radius, radius of the sphere in .mm
-- label, label for naming ROIs (e.g. "Power_consensus")
+- $$coordinates$$, list of MNI coordinates (1 coordinate per row, separate column for x, y, z)                
+- $$radius$$, radius of the sphere in .mm
+- $$label$$, label for naming ROIs (e.g. "Power_consensus")
                
 **Outputs:**  
 - .mat sphere ROIs in /mat/ directory
