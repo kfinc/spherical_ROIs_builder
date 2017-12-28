@@ -34,8 +34,8 @@ for spherenumber = 1:length(coordinates(:,1))
     spherelabel = sprintf('%s_%s_%s', coordsx, coordsy, coordsz);
 
 % save ROI as MarsBaR .mat file
-    saveroi(sphere_roi, fullfile(dir_mat, sprintf('%d_%s_%s_%dmm_roi.mat', spherenumber, label, spherelabel, radius)));
+    saveroi(sphere_roi, fullfile(dir_mat, sprintf('%03d_%s_%s_%dmm_roi.mat', spherenumber, label, spherelabel, radius)));
     
 % Save as .img
-    save_as_image(sphere_roi, fullfile(dir_img, sprintf('%d_%s_%s_%dmm_roi.img', spherenumber, label, spherelabel, radius)));
+    save_as_image(sphere_roi, fullfile(dir_img, sprintf('%03d_%s_%s_%dmm_roi.img', spherenumber, label, spherelabel, radius)));
 end
